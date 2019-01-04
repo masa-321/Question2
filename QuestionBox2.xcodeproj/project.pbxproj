@@ -12,6 +12,7 @@
 		502F4AD521DF513400E6D69F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 502F4AD321DF513400E6D69F /* Main.storyboard */; };
 		502F4AD721DF513700E6D69F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 502F4AD621DF513700E6D69F /* Assets.xcassets */; };
 		502F4ADA21DF513700E6D69F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 502F4AD821DF513700E6D69F /* LaunchScreen.storyboard */; };
+		502F4AE221DF7C2200E6D69F /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502F4AE121DF7C2200E6D69F /* QuestionViewController.swift */; };
 		E50C42F66F6C12CC5C348D27 /* Pods_QuestionBox2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17710917A91B740BC7E65B4A /* Pods_QuestionBox2.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		502F4AD621DF513700E6D69F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		502F4AD921DF513700E6D69F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		502F4ADB21DF513700E6D69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		502F4AE121DF7C2200E6D69F /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		EE55F92FD357CC76AAA55182 /* Pods-QuestionBox2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestionBox2.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuestionBox2/Pods-QuestionBox2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +65,7 @@
 			children = (
 				502F4ACF21DF513300E6D69F /* AppDelegate.swift */,
 				502F4AD121DF513400E6D69F /* ViewController.swift */,
+				502F4AE121DF7C2200E6D69F /* QuestionViewController.swift */,
 				502F4AD321DF513400E6D69F /* Main.storyboard */,
 				502F4AD621DF513700E6D69F /* Assets.xcassets */,
 				502F4AD821DF513700E6D69F /* LaunchScreen.storyboard */,
@@ -255,6 +258,7 @@
 			files = (
 				502F4AD221DF513400E6D69F /* ViewController.swift in Sources */,
 				502F4AD021DF513300E6D69F /* AppDelegate.swift in Sources */,
+				502F4AE221DF7C2200E6D69F /* QuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
